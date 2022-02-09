@@ -132,6 +132,11 @@ p {
   font-size: 2.5rem;
 }
 
+@media (max-width: 380px) {
+  .hero h1 { 
+   font-size: 1.8rem;}
+}
+
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
@@ -166,6 +171,9 @@ p {
 
 .article {
   margin-bottom: 1rem;
+  padding: .700px;
+  border: 1px solid grey;
+  
 }
 
 .article__title {
@@ -250,4 +258,13 @@ p {
   .main {
     padding-right: 2rem;
   }
+}
+
+.articles {
+  display: flex; 
+}
+  
+.article:first-child {
+  background-color: lightgray;
+  margin-right: 1rem;
 }
